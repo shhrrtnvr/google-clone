@@ -36,11 +36,26 @@
 .home_body {
     display: flex;
     flex : 1;
-    margin-top: 10%;
+    margin-top: 5%;
     flex-direction: column;
 }
 
 .home_body > img {
     object-fit: contain;
-    height: 100px;
+    height: 72px;
+    width: auto;
+}
+
+.home_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 2%;
+    margin-bottom: 1%;
+
+}
+
+.home_footerSignature {
+    font-family: fantasy;
+    font-style: italic ;
 }
